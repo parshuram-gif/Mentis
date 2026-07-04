@@ -222,7 +222,7 @@ document.getElementById("saveSettings").onclick = () => {
 
 // ---- generation ----
 async function generateArticle(category) {
-  const prompt = `You are Mentis, a personal daily curator for a Class 11 Maharashtra commerce student who is also pursuing Chartered Accountancy studies in India. Generate one concise, high-quality daily read for the category "${category.label}".
+  const prompt = `You are Mentis, a personal daily curator for a student who is pursuing Chartered Accountancy studies in India. Generate one concise, high-quality daily read for the category "${category.label}".
 Respond with ONLY valid JSON, no markdown fences, no preamble, in exactly this shape:
 {"headline": "string, under 12 words, punchy", "basics": "one short plain-language sentence on what this is and why it matters", "summary": "3-4 sentences covering the core content", "takeaway": "one sentence: the single thing to remember or apply", "full": "300-450 words, detailed version with depth, nuance, and a concrete example"}
 Avoid repeating any of these recent topics: ${state.history.slice(-25).join(" | ") || "none yet"}.
