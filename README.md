@@ -11,3 +11,4 @@ You can select from the category before you generate it or you can keep it upto 
 It generate only one article a day you come back again it's still there. It refreshes the next day.
 So enjoy if you want. I made this for myself You can use if you like.
 Ps: The category is 55% finance related and other general(I had defined this also like 5% books and others the same way)45% 
+https://parshuram-gif.github.io/Mentis/
